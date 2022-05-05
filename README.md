@@ -3,6 +3,12 @@ A direct translation of the official PyTorch implementation of ["Swin Transforme
 
 The official Pytorch implementation can be found [here](https://github.com/microsoft/Swin-Transformer).
 
+## Fork
+
+This Fork is a packaged version of the original repo. Still under construction.
+-Update readme
+-Make things work
+
 ## Introduction:
 ![Swin Transformer Architecture Diagram](./images/swin-transformer.png)
 
