@@ -3,8 +3,8 @@ import argparse
 import torch
 import tensorflow as tf
 
-from config import get_config
-from models.build import build_model_with_config
+from swin_transformer_tensorflow.config import get_config
+from swin_transformer_tensorflow.models.build import build_model_with_config
 
 
 def parse_option():
