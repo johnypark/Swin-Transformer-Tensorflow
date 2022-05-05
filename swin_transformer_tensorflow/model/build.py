@@ -5,7 +5,7 @@ import glob
 
 import tensorflow as tf
 
-from models.swin_transformer import SwinTransformer
+from swin_transformer_tensorflow.model.swin_transformer import SwinTransformer
 
 
 def build_model(config, load_pretrained=True, weights_type='imagenet-1k'):
