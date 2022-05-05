@@ -1,3 +1,3 @@
 import tensorflow as tf
 
-from swin_transofomer_tensorflow.models import *
+from swin_transformer_tensorflow.model import *
