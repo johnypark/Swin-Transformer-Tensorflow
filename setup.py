@@ -3,6 +3,7 @@ import sys
 
 from distutils.core import setup
 from setuptools import find_packages
+import setuptools
 
 
 # List of runtime dependencies required by this built package
@@ -16,17 +17,18 @@ this_directory = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(this_directory, 'README.md')) as f:
     long_description = f.read()
 
-setup(
-    name='swin_transformer_tensorflow',
+setuptools.setup(
+    name='swin_transformer_tf',
     version='0.0.1',
     description='swintransformer-tensorflow',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author="VcampSoldiers",
     author_email='',
-    url='',
+    url="https://github.com/johnypark/Swin-Transformer-Tensorflow",
     packages=find_packages(),
     license='MIT',
     install_requires=install_requires
 )
+
 
