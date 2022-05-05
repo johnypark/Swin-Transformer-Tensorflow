@@ -5,7 +5,14 @@ The official Pytorch implementation can be found [here](https://github.com/micro
 
 ## Fork
 
-This Fork is a packaged version of the original repo. Still under construction.
+This Fork is a packaged version of the original repo. 
+
+### Usage
+```bash
+pip install git+https://github.com/johnypark/Swin-Transformer-Tensorflow@main
+
+```
+Still under construction.
 -Update readme
 -Make things work
 
