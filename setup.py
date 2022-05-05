@@ -10,7 +10,7 @@ import setuptools
 install_requires = []
 #if sys.version_info <= (2, 7):
     #install_requires += ['future', 'typing']
-install_requires += ['tensorflow']#'numpy', 'protobuf', 'crc32c']
+install_requires += ['tensorflow', 'yacs']#'numpy', 'protobuf', 'crc32c']
 
 # read the contents of README file
 this_directory = os.path.abspath(os.path.dirname(__file__))
