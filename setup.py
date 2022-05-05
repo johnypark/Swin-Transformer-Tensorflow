@@ -17,12 +17,12 @@ with open(os.path.join(this_directory, 'README.md')) as f:
     long_description = f.read()
 
 setup(
-    name='Swin-Transformer-Tensorflow',
+    name='swin_transformer_tensorflow',
     version='0.0.1',
     description='swintransformer-tensorflow',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author='',
+    author="VcampSoldiers",
     author_email='',
     url='',
     packages=find_packages(),
