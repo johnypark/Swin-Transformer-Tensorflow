@@ -12,7 +12,7 @@ from tensorflow.keras import Model, Sequential
 
 import tensorflow_addons as tfa
 
-from models.utils import *
+from swin_transformer_tensorflow.model.utils import *
 
 
 class Mlp(Layer):
